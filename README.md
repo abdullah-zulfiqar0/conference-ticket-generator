@@ -1,4 +1,4 @@
-Frontend Mentor - Conference Ticket Generator Solution
+<h1>Frontend Mentor - Conference Ticket Generator Solution </h1>
 
 This is a solution to the Conference Ticket Generator challenge on Frontend Mentor. This project helped me practice form validation, DOM manipulation, file upload handling, and responsive layout using basic frontend technologies.
 
