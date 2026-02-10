@@ -26,8 +26,8 @@
 
 <h3>Links</h3>
 <ul>
-  <li>Solution URL: Add solution URL here</li>
-  <li>Live Site URL: Add live site URL here</li>
+  <li>Solution URL: <a href="https://github.com/abdullah-zulfiqar0/conference-ticket-generator">https://github.com/abdullah-zulfiqar0/conference-ticket-generator</a></li>
+  <li>Live Site URL: <a href="https://abdullah-zulfiqar0.github.io/conference-ticket-generator/">https://abdullah-zulfiqar0.github.io/conference-ticket-generator/</a></li>
 </ul>
 
 <h2>My process</h2>
