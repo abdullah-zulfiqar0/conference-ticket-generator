@@ -30,10 +30,10 @@ Screenshot
 
 
 ![Screenshot](./preview.jpg)
-
 Links
 
 Solution URL: Add solution URL here
+
 Live Site URL: Add live site URL here
 
 My process
@@ -55,7 +55,7 @@ Validate form inputs using JavaScript and regular expressions
 
 Dynamically update the DOM to display personalized tickets
 
-Handle file uploads .
+Handle file uploads
 
 Manage conditional display of elements using display property
 
@@ -77,8 +77,6 @@ Better project structure and naming conventions
 
 Using Git and GitHub confidently for version control
 
-
-
 Useful resources
 
 Frontend Mentor documentation
@@ -99,5 +97,7 @@ Frontend Mentor: @abdullah-zulfiqar0
 GitHub: https://github.com/abdullah-zulfiqar0
 
 Acknowledgments
+
+Thanks to the Frontend Mentor community for providing the challenge and inspiration. Special thanks for tips on responsive design and form validation techniques.
 
 Thanks to the Frontend Mentor community for providing the challenge and inspiration. Special thanks for tips on responsive design and form validation techniques.
