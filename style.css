@@ -1,0 +1,526 @@
+*{
+
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+html{
+font-family: "Inconsolata", monospace;
+
+
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url("./assets/images/background-desktop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+     justify-content: center ;
+    align-items: center ;
+    height: auto;
+
+}
+  
+.logo-mark{
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+
+}
+
+
+
+/* Main Heading */
+.main-heading{
+    margin-top: 2rem;
+}
+.main-heading h1{
+
+    
+    color: white;
+    word-spacing: 1rem;
+}
+.main-heading p{
+
+   margin-top: 1.2rem;
+    color: rgba(255, 255, 255, 0.738);
+    margin-left: 2.1rem;
+}
+span{
+
+    margin-left: 6rem;
+}
+
+
+.avatar-box{
+
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center ;
+    height: 8rem;
+    width: 22rem;
+    background-color:  transparent;
+   border: 2px dashed white;   
+    cursor: pointer;
+    border-radius: 1rem;
+    margin-top: 4rem;
+    background-color: rgba(0, 0, 255, 0.068);
+    
+}
+
+.avatar-box p{
+    color: rgba(255, 255, 255, 0.716);
+    font-size: 0.6rem;
+    margin-top: 0.6rem;
+ font-family: "Inconsolata", monospace;
+}
+.avatar-box:hover{
+   background-color: rgb(147, 147, 147);
+}
+
+
+
+  /* Form-container */
+
+.form-container{
+    position: relative;
+
+}
+.form-container h2{
+
+   
+    font-size: 0.8rem;
+    position:absolute;
+    top: 2.5rem;
+    color: white;
+
+}
+
+.icon-file{
+   display: flex;
+   justify-content: center;
+    height: 2rem;
+    width: 2rem;
+    padding:0.3rem;
+    background-color: rgba(181, 181, 181, 0.329);
+     border-radius: 0.5rem;
+     
+}
+
+.icon-file img {
+    width: 1rem;    
+    height: 1rem;
+}
+
+
+
+/* file alert */
+.file-alert{
+     display: flex;
+     align-items: center ;
+}
+.file-alert img{
+   
+    margin-top:0.3rem;
+}
+.file-alert p{
+
+    color: rgba(255, 255, 255, 0.716);
+    font-size: 0.6rem;
+    margin-top: 0.4rem;
+font-family: "Inconsolata", monospace;
+
+
+}
+
+
+/* file-error */
+.file-error{
+     display: none;
+     align-items: center ;
+}
+.file-error img{
+   
+    margin-top:0.3rem;
+}
+.file-error p{
+
+   color: red;
+    font-size: 0.6rem;
+    margin-top: 0.4rem;
+  font-family: "Inconsolata", monospace;
+
+
+}
+
+
+
+
+  /* //Information */
+
+.Information-All{
+    margin-top: 0.7rem;
+    transition-property: all;
+}
+
+
+ .Information-All label{
+
+    color: white;
+    margin-top: 1rem;
+    
+    font-size: 0.8rem;
+   font-family: "Inconsolata", monospace;
+   
+
+ }
+
+ .Information-All input{
+   color: white;
+    margin-top: 0.4rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    height: 2rem;
+    width: 22rem;
+   background-color: rgba(0, 0, 255, 0.068);
+    border: 1px solid rgba(176, 176, 176, 0.752);
+ }
+ .Information-All input:hover{
+
+    background-color: rgb(147, 147, 147);
+ }
+
+ .button{
+  display: flex;
+    text-align: center ;
+    justify-content: center ;
+    align-items: center ;
+    margin-top: 1rem;
+
+ }
+
+ .button button{
+ color: black;
+ font-family: 900;
+    margin-top: 0.4rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    height: 2rem;
+    width: 22rem;
+    background-color: rgb(255, 140, 0);
+
+    border: 1px solid transparent;
+    cursor: pointer;
+    text-align: center ;
+    align-items: center ;
+    justify-content: center ;
+    padding: 0.4rem;
+    font-family: "Inconsolata", monospace;
+     
+ }
+
+
+ /*Email-alert*/
+
+.Email-alert{
+     align-items: center ;
+     display: none;
+}
+
+.Email-alert p{
+
+    color: rgba(255, 255, 255, 0.716);
+    font-size: 0.6rem;
+    margin-top: 0.4rem;
+   font-family: "Inconsolata", monospace;
+    color: rgba(255, 0, 0, 0.781);
+
+
+
+}
+
+.Name-alert{
+     align-items: center ;
+     display: none;
+}
+
+.Name-alert p{
+
+    color: rgba(255, 255, 255, 0.716);
+    font-size: 0.6rem;
+    margin-top: 0.4rem;
+   font-family: "Inconsolata", monospace;
+    color: rgba(255, 0, 0, 0.781);
+
+
+
+}
+
+.Github-alert{
+     align-items: center ;
+     display: none;
+}
+
+.Github-alert p{
+
+    color: rgba(255, 255, 255, 0.716);
+    font-size: 0.6rem;
+    margin-top: 0.4rem;
+   font-family: "Inconsolata", monospace;
+    color: rgba(255, 0, 0, 0.781);
+
+
+
+}
+#preview-img {
+  display: none;
+}
+
+
+
+
+
+/* SECOND PAGE  */
+     
+ 
+.SecondContainer{
+
+    display: none;
+    flex-direction: column;
+     justify-content: center ;
+    align-items: center ;
+    height: auto;
+
+}
+
+
+.second-logo-mark{
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+    margin-top: 1rem;
+
+}
+
+
+
+/* Main Heading */
+.second-main-heading{
+    margin-top: 2rem;
+    color: white;
+    font-family: "Inconsolata", monospace;
+}
+
+
+.second-main-heading p{
+
+   margin-top: 1.2rem;
+    color: rgba(255, 255, 255, 0.738);
+    margin-left: 8.2rem;
+    word-spacing:0.3rem;
+   font-family: "Inconsolata", monospace;
+}
+
+#second-h1{
+
+    margin-left: 3.3rem;
+} 
+
+
+.ticket {
+    position: relative;
+    width: 25rem;
+    margin-top: 3rem;
+}
+
+/* Ticket background image */
+.ticket-bg {
+    width: 25rem;
+}
+
+/* Top logo + date */
+.ticket-logo {
+    position: absolute;
+    top: 1.4rem;
+    left: 1.6rem;
+}
+
+.ticket-logo img {
+    width: 10rem;
+}
+
+.ticket-logo p {
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 0.2rem;
+    font-size: 0.8rem;
+}
+
+/* Profile section */
+.profile-information {
+    position: absolute;
+    top: 6.5rem;
+    left: 1.6rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile-image img {
+    width: 3rem;
+    border-radius: 0.5rem;
+}
+ 
+/* Name + GitHub */
+.profile-name p.full-name {
+    color: white;
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+}
+
+.github {
+    display: flex;
+    align-items: center;
+  
+}
+
+.git-icon {
+    width: 1rem;
+}
+
+.git-username {
+    color: rgba(255,255,255,0.7);
+    font-size: 0.8rem;
+}
+
+.github p{
+    color: white;
+      font-size: 0.7rem;
+      margin-left: 0.2rem;
+}
+
+
+
+
+
+
+.avatar-box img {
+   
+    object-fit: cover;
+
+     width: 3rem;
+    border-radius: 0.5rem;
+}
+
+ 
+ 
+
+   /* Responsive */
+
+@media (max-width: 480px) {
+
+  body {
+    background-image: url("./assets/images/background-mobile.png");
+  }
+
+  .main-heading h1 {
+    font-size: 1.4rem;
+    text-align: center;
+    word-spacing: 0;
+  }
+
+  .main-heading p {
+    margin-left: 0;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  span {
+    margin-left: 0;
+  }
+
+  .avatar-box,
+  .Information-All input,
+  .button button {
+    width: 100%;
+  }
+
+  .form-container h2 {
+    left: 0;
+    font-size: 0.7rem;
+  }
+
+  .Information-All label {
+    font-size: 0.7rem;
+  }
+
+  /* SECOND PAGE */
+  .second-main-heading h1 {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+
+  #second-h1 {
+    margin-left: 0;
+  }
+
+  .second-main-heading p {
+    margin-left: 0;
+    text-align: center;
+    font-size: 0.75rem;
+  }
+
+  .ticket {
+    width: 100%;
+  }
+
+  .ticket-bg {
+    width: 100%;
+  }
+
+  .ticket-logo img {
+    width: 7rem;
+  }
+
+  .ticket-logo p {
+    font-size: 0.6rem;
+  }
+
+  .profile-information {
+    top: 5.5rem;
+    left: 1rem;
+    gap: 0.7rem;
+  }
+
+  .profile-name p.full-name {
+    font-size: 0.8rem;
+  }
+
+  .github p {
+    font-size: 0.6rem;
+  }
+}
+
+
+@media (min-width: 1440px) {
+  .container,
+  .SecondContainer {
+    max-width: 1440px;
+    margin: auto;
+  }
+}

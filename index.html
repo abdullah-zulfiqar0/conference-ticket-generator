@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Generator Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+     
+        <div class="logo-mark">
+            <img src="./assets/images/logo-mark.svg" alt="">
+            <div class="logo-full">
+                <img src="./assets/images/logo-full.svg" alt="">
+            </div>
+
+        </div>
+                 
+
+
+
+        <div class="main-heading">
+
+            <h1> Your  Journey to Coding Conf<br></h1>
+            <h1> <span> 2025 Starts Here!</span> </h1>
+            <p>Secure your spot at next year's biggest coding conference.</p>
+        </div>
+
+           
+
+
+
+        <div class="form-container">
+          
+            <h2>Upload Avatar</h2>
+           
+           
+ 
+                  
+
+            </label> 
+            <label class="avatar-box" for="file-input"> 
+    <img id="preview-img"/>
+
+    <div class="icon-file">
+
+    </div>
+
+    <input type="file" id="file-input" accept="image/*" hidden>
+    <p> Drag and drop or click to upload </p>
+</label>
+
+
+
+        
+                 
+
+                       <!-- File-alert -->
+            <div class="file-alert">
+                <img src="./assets/images/icon-info.svg  " alt="">
+                <p> &nbsp; Upload your photo (JPG OR PNG, max size: 500KB).</p>
+            </div>
+
+
+            <!-- file-error -->
+            <div class="file-error">
+                <img src="./assets/images/icon-info.svg  " alt="">
+                <p> &nbsp; File to large please upload a photo under 500KB</p>
+            </div>
+
+
+
+
+
+               <!-- Fullname -->
+
+              <form id="userform">
+            <div class="Information-All">
+              
+                <label>Full Name <br> </label> 
+                <input type="text"  id="fullname"> 
+            </div>
+
+
+            <div class="Name-alert"  >
+                    <img src="./assets/images/icon-info.svg  " alt="">
+               
+                <p> &nbsp; Please enter a valid Full name.</p>
+            </div>
+        
+
+
+
+                     <!-- Email  address -->
+                        <div class="Information-All">
+              
+                <label>Email Address <br> </label> 
+                <input type="email"  id="email" placeholder="example@email.com   " > 
+
+                    
+
+
+
+                   <!-- EMAIL-ALERT -->
+                 <div class="Email-alert"  >
+                    <img src="./assets/images/icon-info.svg  " alt="">
+               
+                <p> &nbsp; Please enter a valid email address.</p>
+            </div>
+            </div>
+
+
+                  <!-- Github username -->
+
+                        <div class="Information-All">
+              
+                <label>GitHub Username <br> </label> 
+                <input type="text"  id="github"   placeholder="@yourusername"> 
+            </div> 
+
+            <div class="Github-alert"  >
+                    <img src="./assets/images/icon-info.svg  " alt="">
+               
+                <p> &nbsp; Please enter a valid username.</p>
+            </div>
+
+
+            </div>
+                     
+
+            <!-- submit Button -->
+
+                <div class="button">
+                   <button type="submit" id="button"> Generate My Ticket</button>
+                </div>
+           
+
+
+            
+
+              </form>
+                                    
+
+        </div>
+
+       
+
+
+    </div>
+
+
+
+
+<!-- 
+      FOR SECOND PAGE -->
+           <div class="SecondContainer">
+     
+        <div class="second-logo-mark">
+            <img src="./assets/images/logo-mark.svg" alt="">
+            <div class="second-logo-full">
+                <img src="./assets/images/logo-full.svg" alt="">
+            </div>
+
+        </div>
+                 
+
+    
+
+        <div class="second-main-heading">
+
+            <h1>Congrats,  Jonatan Kristof!  </h1>
+            <h1 id="second-h1">Your ticket is ready! </h1>
+            <p> We've emailed your ticket to <br> Jonatan@email.com and will send updates in<br> the run up to the event.</p>
+
+        </div>
+
+                    
+
+<div class="ticket">
+
+    <div class="ticket-logo">
+        <img src="./assets/images/logo-full.svg" alt="">
+        <p>Jan 31 , 2025  /  Austin, TX</p>
+    </div>
+
+    <div class="profile-information">
+        <div class="profile-image">
+            <img src="assets/images/image-avatar.jpg" alt="">
+        </div>
+
+        <div class="profile-name">
+            <p class="full-name">Jonatan Kristof</p>
+
+            <div class="github">
+                <img src="./assets/images/icon-github.svg" class="git-icon">
+           <p> @jonatankristof0101 <p>
+            </div>
+        </div>
+    </div>
+
+    <img src="./assets/images/pattern-ticket.svg" class="ticket-bg">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
