@@ -46,4 +46,34 @@
   <li>Validate form inputs using JavaScript and regular expressions</li>
   <li>Dynamically update the DOM to display personalized tickets</li>
   <li>Handle file uploads</li>
-  <li>Manage condition
+  <li>Manage conditional display of elements using display property</li>
+  <li>Align dynamic content correctly in a responsive layout</li>
+  <li>Structure folders and assets properly for clean deployment</li>
+</ul>
+
+<h3>Continued development</h3>
+<p>In future projects, I want to improve:</p>
+<ul>
+  <li>Writing cleaner and reusable JavaScript functions</li>
+  <li>Improving accessibility (ARIA labels, focus states)</li>
+  <li>Adding animations for ticket generation</li>
+  <li>Better project structure and naming conventions</li>
+  <li>Using Git and GitHub confidently for version control</li>
+</ul>
+
+<h3>Useful resources</h3>
+<ul>
+  <li>Frontend Mentor documentation – For challenge reference and design guidance</li>
+  <li>MDN Web Docs – For JavaScript and DOM manipulation help</li>
+  <li>CSS Tricks – For responsive design and Flexbox guidance</li>
+</ul>
+
+<h2>Author</h2>
+<ul>
+  <li>Name: Abdullah Zulfiqar</li>
+  <li>Frontend Mentor: <a href="https://www.frontendmentor.io/profile/abdullah-zulfiqar0">@abdullah-zulfiqar0</a></li>
+  <li>GitHub: <a href="https://github.com/abdullah-zulfiqar0">https://github.com/abdullah-zulfiqar0</a></li>
+</ul>
+
+<h2>Acknowledgments</h2>
+<p>Thanks to the Frontend Mentor community for providing the challenge and inspiration. Special thanks for tips on responsive design and form validation techniques.</p>
